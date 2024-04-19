@@ -1,0 +1,24 @@
+{
+  "systemParams": "win32-x64-115",
+  "modulesFolders": [
+    "..\\module"
+  ],
+  "flags": [],
+  "linkedModules": [],
+  "topLevelPatterns": [
+    "@spectrum-css/button@^13.0.0",
+    "@spectrum-css/icon@^7.0.0",
+    "@spectrum-css/page@^8.0.0",
+    "@spectrum-css/tokens@^14.0.0",
+    "@spectrum-css/typography@^6.0.0"
+  ],
+  "lockfileEntries": {
+    "@spectrum-css/button@^13.0.0": "https://registry.yarnpkg.com/@spectrum-css/button/-/button-13.0.0.tgz#3c4e15dd2204b14d7d8127031c7390a355bef09a",
+    "@spectrum-css/icon@^7.0.0": "https://registry.yarnpkg.com/@spectrum-css/icon/-/icon-7.0.0.tgz#1f716e830b30c4fb1797b42ab95571e1aefb8b86",
+    "@spectrum-css/page@^8.0.0": "https://registry.yarnpkg.com/@spectrum-css/page/-/page-8.0.0.tgz#4956e775752cae63acb86a126c5786919be93f35",
+    "@spectrum-css/tokens@^14.0.0": "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-14.0.0.tgz#e9c25523ebdca90c6acae516088ea8772d2d46ab",
+    "@spectrum-css/typography@^6.0.0": "https://registry.yarnpkg.com/@spectrum-css/typography/-/typography-6.0.0.tgz#ec9c9a9e6e1802ad79a375159aceb7429fb69f6d"
+  },
+  "files": [],
+  "artifacts": {}
+}
