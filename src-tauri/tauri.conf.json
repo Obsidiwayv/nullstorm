@@ -19,14 +19,14 @@
       "fs": {
         "all": true,
         "scope": [
-          "$RESOURCE/pallets/",
+          "$RESOURCE/*",
           "$RESOURCE/pallets/*"
         ]
       }
     },
     "bundle": {
       "active": true,
-      "category": "DeveloperTool",
+      "category": "Game",
       "copyright": "",
       "deb": {
         "depends": []

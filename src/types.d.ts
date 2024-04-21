@@ -10,3 +10,12 @@ interface VersionManifest {
     created: string,
     lastUsed: string
 }
+
+interface PalletFileMetadata {
+    version: string;
+    name: string;
+    color: {
+        background: string;
+        text: string;
+    };
+}

@@ -1,4 +1,5 @@
 $version: 0.0.1
+$name: redrunes
 $color = {
     background: #2B201C
     text: #4F0006
