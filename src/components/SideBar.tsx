@@ -1,55 +1,25 @@
-import "@spectrum-css/sidenav";
-
 const placeholder_items = ["nuh uh"];
+
+const SidebarDivStyle: React.CSSProperties = {
+    width: "150px", // Adjust the width as needed
+    height: "90vh", // Adjust the height as needed
+    maxHeight: "100vh",
+    overflowY: "auto",
+    position: "fixed",
+    left: "20px", // Distance from the left edge
+    top: "50%", // Align vertically in the middle
+    transform: "translateY(-50%)", // Center vertically
+    color: "white",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: "5px", // Adjust the border radius as needed
+};
 
 export default function () {
     return (
-        <nav style={{
-            marginTop: '50px',
-            width: '200px',
-            height: '100%',
-            overflow: 'hidden',
-            position: 'fixed',
-            bottom: 0,
-            display: 'flex',
-            top: "5%",
-            flexDirection: 'column'
-        }}>
-            <div>
-                <div style={{ flex: 1, overflow: 'auto' }}>
-                    <ul className="spectrum-SideNav">
-                        <li className="spectrum-SideNav-item">
-                            <a href="#" className="spectrum-SideNav-itemLink" aria-current="page">
-                                <span className="spectrum-SideNav-link-text">Home</span>
-                            </a>
-                        </li>
-                        <li className="spectrum-SideNav-item">
-                            <a href="#" className="spectrum-SideNav-itemLink" aria-current="page">
-                                <span className="spectrum-SideNav-link-text">Mods</span>
-                            </a>
-                        </li>
-                        <li className="spectrum-SideNav-item">
-                            <a href="#" className="spectrum-SideNav-itemLink" aria-current="page">
-                                <span className="spectrum-SideNav-link-text">Settings</span>
-                            </a>
-                        </li>
-                        <li>
-                            <h2 className="spectrum-SideNav-heading" id="nav-heading-1">Versions</h2>
-                            <ul className="spectrum-SideNav" aria-labelledby="nav-heading-1">
-                                {placeholder_items.map((item) => {
-                                    return (
-                                        <li className="spectrum-SideNav-item">
-                                            <a href="#" className="spectrum-SideNav-itemLink">
-                                                <span className="spectrum-SideNav-link-text">{item}</span>
-                                            </a>
-                                        </li>
-                                    )
-                                })}
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        <div style={SidebarDivStyle} className="nav">
+            <h1>h</h1>
+        </div>
     );
 }

@@ -518,55 +518,10 @@
   resolved "https://registry.yarnpkg.com/@rollup/rollup-win32-x64-msvc/-/rollup-win32-x64-msvc-4.14.3.tgz#5b2fb4d8cd44c05deef8a7b0e6deb9ccb8939d18"
   integrity sha512-/BypzV0H1y1HzgYpxqRaXGBRqfodgoBBCcsrujT6QRcakDQdfU+Lq9PENPh5jB4I44YWq+0C2eHsHya+nZY1sA==
 
-"@spectrum-css/alertbanner@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/alertbanner/-/alertbanner-2.0.0.tgz#d7be8965cb231f19feb35b6975559acfef014895"
-  integrity sha512-SJt4RFXDFfRkFZeKVStgiSFLOoZrs1vBSBroGoIf7RewnKGMa+cJXu/BBqGPvxVgyTL4lEuf4q7sPXXWFPYemw==
-
-"@spectrum-css/asset@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/asset/-/asset-5.0.0.tgz#f4c121a652b46c5554f962f62e917e27d2badfca"
-  integrity sha512-9a7e3UK9VqqVSadUHwGA3reFUBkyYnpUUAN6x2eRVGHyvw2JcW9AHWUbZLN80Czeg2YspZSBQjXoADcAO6GOSg==
-
-"@spectrum-css/avatar@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/avatar/-/avatar-7.0.0.tgz#8ef3cf74d0ef455a2eace793605ae456cdf7de00"
-  integrity sha512-0JDTYV1NtFkjwlQKMzY1EcFyK/o/UqS5zcEuB25fWO8pE4oXqvLrpDFuh8auPgoQpqCfAbLY40IOwP8GuDWRog==
-
-"@spectrum-css/button@^13.0.0":
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/button/-/button-13.0.0.tgz#3c4e15dd2204b14d7d8127031c7390a355bef09a"
-  integrity sha512-YOr9fRLdPVIJcCENa8+vHlFg8iK+ll9Yxj4IWyoXXgxWYT/dVHRYKqdUY4KrF4iOwlNr/qQO195pQu7D1sdJNA==
-
-"@spectrum-css/card@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/card/-/card-8.0.0.tgz#be099de006c901ec75a06172f351f180d5414604"
-  integrity sha512-3xYTYP+Hqj/Bg1oj0eDfAh3T81z+28E5KfQRUyQ3TH4YXhYKRG9qBDilPhVZkkNZoPhxNOY6n6EjRUKcxXgDow==
-
-"@spectrum-css/fieldgroup@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/fieldgroup/-/fieldgroup-5.0.0.tgz#614aa574aaff3361417f73cc9c0e30495f202b02"
-  integrity sha512-J7ctixTIeubBtntNDyA49jJ73sjipQo/jjr7vqMGMueDthyx6OCflxQvceeuS1pIpcx6Vbp3O5aoijl5Bn5F9A==
-
-"@spectrum-css/page@^8.0.0":
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/page/-/page-8.0.0.tgz#4956e775752cae63acb86a126c5786919be93f35"
-  integrity sha512-3+nciBl26TwrZkTr+cRTlCq+YF9+TOH+Lhr+0Q+NxZyHrUkWIcjDqoZ5g5YiefsRnFWw6dsq3GO1OffXqAVHng==
-
-"@spectrum-css/sidenav@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/sidenav/-/sidenav-5.0.0.tgz#86c08546678fc85def634a453b9728eef68d7692"
-  integrity sha512-BEnSYtya4NppwdmWJmKzZUa/WOgjWPcGwqS8VU6vgQcGOPJBDS0Peu+5Dyd4CjR+EnHg2O3kwGwXOxWPz8019A==
-
-"@spectrum-css/tokens@^14.0.0":
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/tokens/-/tokens-14.0.0.tgz#e9c25523ebdca90c6acae516088ea8772d2d46ab"
-  integrity sha512-4Tf4PWHXBYM395j+JJxr4uwgi3lx449iqu2BTwzf9dfdKSzEd0fZtpsXWldE2VdZjz5XQrNKFIwH6Gkmqo03tA==
-
-"@spectrum-css/typography@^6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@spectrum-css/typography/-/typography-6.0.0.tgz#ec9c9a9e6e1802ad79a375159aceb7429fb69f6d"
-  integrity sha512-QNk/ef/X6lZCBrLDaHh804AuVqjPniZ6k6pQLgayduqPgkpjGfzJ+v11Cemu0B/NQMf4do1rDdQzta03DIkbGw==
+"@tauri-apps/api@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tauri-apps/api/-/api-1.5.3.tgz#f7b362b1f30aadb0a8bbeb7ae111755c0ed33d73"
+  integrity sha512-zxnDjHHKjOsrIzZm6nO5Xapb/BxqUq1tc7cGkFXsFkGTsSWgCPH1D8mm0XS9weJY2OaR73I3k3S+b7eSzJDfqA==
 
 "@tauri-apps/cli-darwin-arm64@1.5.11":
   version "1.5.11"
@@ -821,6 +776,11 @@ acorn@^8.9.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.11.3.tgz#71e0b14e13a4ec160724b38fb7b0f233b1b81d7a"
   integrity sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==
 
+adm-zip@^0.5.12:
+  version "0.5.12"
+  resolved "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.12.tgz#87786328e91d54b37358d8a50f954c4cd73ba60b"
+  integrity sha512-6TVU49mK6KZb4qG6xWaaM4C7sA/sgUMLy/JYMOzkcp3BvVLpW0fXDFQiIzAuxFCt/2+xD7fNIiPFAoLZPhVNLQ==
+
 ajv@^6.12.4:
   version "6.12.6"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"
@@ -972,7 +932,7 @@ csstype@^3.0.2:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.3.tgz#d80ff294d114fb0e6ac500fbf85b60137d7eff81"
   integrity sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==
 
-debug@^4.1.0, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
+debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   integrity sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==
@@ -1280,6 +1240,11 @@ globby@^11.1.0:
     ignore "^5.2.0"
     merge2 "^1.4.1"
     slash "^3.0.0"
+
+globrex@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
+  integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
 graphemer@^1.4.0:
   version "1.4.0"
@@ -1753,6 +1718,11 @@ ts-api-utils@^1.3.0:
   resolved "https://registry.yarnpkg.com/ts-api-utils/-/ts-api-utils-1.3.0.tgz#4b490e27129f1e8e686b45cc4ab63714dc60eea1"
   integrity sha512-UQMIo7pb8WRomKR1/+MFVLTroIvDVtMX3K6OUir8ynLyzB8Jeriont2bTAtmNPa1ekAgN7YPDyf6V+ygrdU+eQ==
 
+tsconfck@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-3.0.3.tgz#d9bda0e87d05b1c360e996c9050473c7e6f8084f"
+  integrity sha512-4t0noZX9t6GcPTfBAbIbbIU4pfpCwh0ueq3S4O/5qXI1VwK1outmxhe9dOiEWqMz3MW2LKgDTpqWV+37IWuVbA==
+
 type-check@^0.4.0, type-check@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/type-check/-/type-check-0.4.0.tgz#07b8203bfa7056c0657050e3ccd2c37730bab8f1"
@@ -1789,6 +1759,15 @@ uri-js@^4.2.2:
   integrity sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
   dependencies:
     punycode "^2.1.0"
+
+vite-tsconfig-paths@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.yarnpkg.com/vite-tsconfig-paths/-/vite-tsconfig-paths-4.3.2.tgz#321f02e4b736a90ff62f9086467faf4e2da857a9"
+  integrity sha512-0Vd/a6po6Q+86rPlntHye7F31zA2URZMbH8M3saAZ/xR9QoGN/L21bxEGfXdWmFdNkqPpRdxFT7nmNe12e9/uA==
+  dependencies:
+    debug "^4.1.1"
+    globrex "^0.1.2"
+    tsconfck "^3.0.3"
 
 vite@^5.2.0:
   version "5.2.9"

@@ -12,7 +12,17 @@
   },
   "tauri": {
     "allowlist": {
-      "all": false
+      "all": false,
+      "path": {
+        "all": true
+      },
+      "fs": {
+        "all": true,
+        "scope": [
+          "$RESOURCE/pallets/",
+          "$RESOURCE/pallets/*"
+        ]
+      }
     },
     "bundle": {
       "active": true,

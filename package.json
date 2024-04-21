@@ -10,19 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@spectrum-css/alertbanner": "^2.0.0",
-    "@spectrum-css/asset": "^5.0.0",
-    "@spectrum-css/avatar": "^7.0.0",
-    "@spectrum-css/button": "^13.0.0",
-    "@spectrum-css/card": "^8.0.0",
-    "@spectrum-css/fieldgroup": "^5.0.0",
-    "@spectrum-css/page": "^8.0.0",
-    "@spectrum-css/sidenav": "^5.0.0",
-    "@spectrum-css/tokens": "^14.0.0",
-    "@spectrum-css/typography": "^6.0.0",
+    "@tauri-apps/api": "^1.5.3",
+    "adm-zip": "^0.5.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.3"
+    "react-router-dom": "^6.22.3",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.5.11",

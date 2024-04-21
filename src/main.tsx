@@ -1,12 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
-import './App.css'
 
-import "@spectrum-css/tokens";
-import "@spectrum-css/button";
-import "@spectrum-css/page";
-import "@spectrum-css/typography";
+import "ouroboros/index.css";
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

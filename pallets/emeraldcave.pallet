@@ -1,0 +1,5 @@
+$version: 0.0.1
+$color = {
+    background: #00201E
+    text: #007F5F
+}

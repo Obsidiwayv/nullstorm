@@ -1,51 +1,18 @@
 import SideBar from './components/SideBar';
-import { useSpectrum } from './spectrum'
 
-import "@spectrum-css/card";
-import "@spectrum-css/fieldgroup";
-import "@spectrum-css/asset";
 import { getVersionBanner } from './utils/versions';
 
+import CardBanners from "./assets/RDT_20240223_2028144252604940621275460.jpg";
+import { resourceDir } from '@tauri-apps/api/path';
+import { BaseDirectory, exists } from '@tauri-apps/api/fs';
+import { dir } from 'console';
+import { compilePallets } from './Files';
+
 function App() {
-  useSpectrum();
+  compilePallets();
   return (
-    <div style={{ display: 'flow' }}>
+    <div>
       <SideBar />
-      <div style={{ flex: 4, padding: '5px', justifyContent: 'space-around' }}>
-        <div className="spectrum-Asset">
-          {/** style="max-width: 75%; max-height: 75%; object-fit: contain;" */}
-          <img
-            className="spectrum-Asset-image"
-            src={getVersionBanner()}
-            style={{
-              height: "300px",
-              objectFit: "contain",
-              maxHeight: "75%",
-              maxWidth: "75%"
-            }}
-          />
-        </div>
-        <div style={{ padding: "15px", display: 'flex', justifyContent: 'space-around' }}>
-
-          <button className="spectrum-Button spectrum-Button--fill spectrum-Button--secondary spectrum-Button--sizeXL" style={{ marginBottom: '40px' }}>
-            <span className="spectrum-Button-label">Launch</span>
-          </button>
-        </div>
-
-        {/* Versions and such... */}
-        <div style={{ padding: "15px", display: 'flex', justifyContent: 'space-around' }}>
-          <div>
-            <div>
-              <div>Thats crazy</div>
-              <div>💀</div>
-            </div>
-            <div>
-              <input type="checkbox" className="spectrum-Checkbox-input" id="example-checkbox" />
-              <label className="spectrum-Checkbox-label" htmlFor="example-checkbox">Check me</label>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   )
 }
