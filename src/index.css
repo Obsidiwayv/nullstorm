@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This file does absolutely nothing except provide theming to the background and foreground. */
+
+.navbar {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    scrollbar-width: none;
+    /* Use with caution */
+    -ms-overflow-style: none;
+    /* Use with caution */
+}
+
+.navbar::-webkit-scrollbar {
+    display: none;
+    /* Use with caution */
+}

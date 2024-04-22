@@ -20,7 +20,13 @@
         "all": true,
         "scope": [
           "$RESOURCE/*",
-          "$RESOURCE/pallets/*"
+          "$RESOURCE/pallets/*",
+          "$RESOURCE/**",
+          "$RESOURCE/pallets/**",
+          "$RESOURCE/**/*",
+          "$RESOURCE/pallets/**",
+          "$CACHE/*",
+          "$CACHE/**"
         ]
       }
     },

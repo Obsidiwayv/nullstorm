@@ -1,6 +1,5 @@
-import { BaseDirectory, exists, readDir, readTextFile, writeFile, writeTextFile } from "@tauri-apps/api/fs";
-import { dirExists } from "src/Files";
-import { fs } from "@tauri-apps/api";
+import { BaseDirectory, exists, readDir, readTextFile, writeFile } from "@tauri-apps/api/fs";
+import { createDirIfNotExists, dirExists } from "src/Files";
 
 export default class {
     static async search() {
@@ -26,7 +25,7 @@ export default class {
             const color_json = file.split("$")[3].split("=")[1].trim().split("   ");
             const color_bg = color_json[1];
             const color_text = color_json[2].replace("}", "");
-            
+
             let compiled = {
                 version: fixEnd(file.split("$")[1].split(":").reverse()[0]).trim(),
                 name: fixEnd(file.split("$")[2].split(":").reverse()[0]).trim(),
@@ -36,9 +35,14 @@ export default class {
                 }
             };
 
-            if (!(await dirExists(`pallets/${p.path.replace(".pallet", ".json")}`))) {
-                await writeFile(`pallets/${p.path.replace(".pallet", ".json")}`, JSON.stringify(compiled), {
-                    dir: BaseDirectory.Resource
+            const folder = "Comp";
+            const comp_path = `${folder}/${p.name!.replace(".pallet", ".json")}`;
+
+            await createDirIfNotExists(folder);
+
+            if (!(await exists(comp_path, { dir: BaseDirectory.AppLocalData }))) {
+                await writeFile(comp_path, JSON.stringify(compiled), {
+                    dir: BaseDirectory.AppLocalData
                 });
             }
         });
