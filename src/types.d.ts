@@ -1,4 +1,4 @@
-interface VersionManifest {
+type ProfileManifest = {
     name: string,
     lastVersionId: string,
     resolution: {
@@ -11,7 +11,7 @@ interface VersionManifest {
     lastUsed: string
 }
 
-interface PalletFileMetadata {
+type PalletFileMetadata = {
     version: string;
     name: string;
     color: {
@@ -19,3 +19,11 @@ interface PalletFileMetadata {
         text: string;
     };
 }
+
+type LauncherEvents = {
+    profile: ProfileManifest;
+};
+
+type PlayButtonState = "disabled" | "ready";
+
+type ProfileManifestObject = { profiles: Record<string, ProfileManifest> };

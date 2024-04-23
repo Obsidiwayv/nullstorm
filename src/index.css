@@ -4,8 +4,12 @@
 
 /* This file does absolutely nothing except provide theming to the background and foreground. */
 
+.home {
+    background-color: rgb(12, 12, 19);
+}
+
 .navbar {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(10, 10, 17);
     color: white;
     scrollbar-width: none;
     /* Use with caution */
