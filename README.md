@@ -8,4 +8,8 @@ Launcher is currently work in progress, not ready to launch the game just yet.
 ## Running and building the launcher
 1: Install rust (requires visual studio on windows which is the current one the launcher support at the mmoment)
 2: Install Yarn `npm i -g yarn`
-3: yarn dev tauri
+3: yarn tauri dev
+
+screenshot:
+![screenshot](public/screenshots/nullstorm_u8lWmzhpX3.png)
+(sorry for the banner)
